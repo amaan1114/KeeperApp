@@ -25,5 +25,3 @@ DeployLink: https://keeper4u.netlify.app/
 
 <br>
 
-## 📁 Folder Structure
-
