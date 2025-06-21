@@ -1,0 +1,40 @@
+
+img{
+    width: 10%;
+    cursor: pointer;
+}
+.bin
+{
+    width: 10%;
+}
+.CardStyling{
+    width: 100vw !important;
+    height:85vh !important;
+    overflow:auto !important;
+    overflow-x: hidden !important;
+    font-family: "Playfair Display",serif;
+   
+}
+.TextCard{
+    width: 15rem !important;
+    font-family: "Playfair Display",serif;
+    
+}
+.inputcard{
+    width: 50%;
+    align-self: center;
+    font-family: "Playfair Display",serif;
+
+    
+}
+
+@media screen and (max-width:767px) {
+    .TextCard{
+      width: 98% !important;
+    }
+    .inputcard{
+        width: 98%;
+    }
+  
+    
+}
