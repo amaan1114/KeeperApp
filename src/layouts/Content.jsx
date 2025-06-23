@@ -26,6 +26,8 @@ const addCard=()=>{
             title: title.trim(),
             text: text.trim()
         }])
+        setTitle('')
+        SetText('')
     }
     
 }
@@ -59,6 +61,7 @@ const deleteCard = (id) => {
                             width: '100%',
                         }}
                         placeholder="Title"
+                        value={title}
                         onChange={(e)=>setTitle(e.target.value)}
                 />
 
@@ -76,6 +79,7 @@ const deleteCard = (id) => {
                             borderBottom: 'none',
                             width: '100%',
                         }}
+                        value={text}
                         onChange={(e)=>SetText(e.target.value)}
                 />
 
